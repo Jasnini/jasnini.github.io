@@ -2,7 +2,7 @@ module.exports = {
     title: 'dali的个人博客',  //标题
     keywords: '前端开发',
     description: 'dali的个人博客',
-    repo: 'https://github.com/Jasnini/blog.git',  //仓库地址
+    repo: 'https://github.com/Jasnini',  //仓库地址
     base: '/blog/',  // 配合部署项目
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }]
@@ -19,7 +19,7 @@ module.exports = {
               ] 
             },
             { text: '关于', link: '/about/' },
-            { text: 'Github', link: 'https://github.com/Jasnini/blog.git' },
+            { text: 'Github', link: 'https://github.com/Jasnini' },
         ],
         sidebar: {
             '/android/': [
