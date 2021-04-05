@@ -3,7 +3,7 @@ module.exports = {
     keywords: '前端开发',
     description: 'dali的个人博客',
     repo: 'https://github.com/Jasnini',  //仓库地址
-    base: '/blog',  // 配合部署项目
+    base: '/',  // 配合部署项目
     dest: './blog',
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }]
