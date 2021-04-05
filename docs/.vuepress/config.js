@@ -4,6 +4,7 @@ module.exports = {
     description: 'dali的个人博客',
     repo: 'https://github.com/Jasnini',  //仓库地址
     base: '/',  // 配合部署项目
+    dest: './dist',
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }]
     ],
