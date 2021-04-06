@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'dali的个人博客',  //标题
+    title: 'dali&zxlg的博客',  //标题
     keywords: '前端开发',
     description: 'dali&zxlg的博客',
     repo: 'https://github.com/Jasnini',  //仓库地址
