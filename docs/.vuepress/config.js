@@ -5,6 +5,7 @@ module.exports = {
     repo: 'https://github.com/Jasnini',  //仓库地址
     base: '/blog/',  // 配合部署项目
     dest: './blog',
+    port: '32087',
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }]
     ],
