@@ -13,46 +13,43 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: '主页', link: '/' },
-            { text: '博文',
+            { text: '技术博文',
               items: [
-                { text: '前端技术', link: '/frontEnd/' },
-                {text: '机器学习', link: '/ml/'}
+                { text: '前端技术', link: '/frontEnd/如何学好前端' },
+                {text: '机器学习', link: '/ml/机器学习早知道'}
               ] 
             },
             { text: '关于', link: '/about/' },
             { text: 'Github', link: 'https://github.com/Jasnini' },
         ],
-        sidebar: [{
+        sidebar: {
             '/frontEnd/': [
                 {
                     title: '前端技术总结',
                     // sidebarDepth: 2,
                     collapsable: true,
                     children: [
-                        ["/frontEnd/如何学好前端", "如何学好前端"],
-                        ["/frontEnd/网站性能优化", "网站性能优化"],
-                        ["/frontEnd/BFC", "BFC"],
-                        ["/frontEnd/CSS3新特性", "CSS3新特性"],
-                        ["/frontEnd/ES6新特性", "ES6新特性"],
-                        ["/frontEnd/H5新特性", "H5新特性"],
-                        ["/frontEnd/动画", "动画"],
+                        {path: "/frontEnd/如何学好前端", title: "如何学好前端"},
+                        {path: "/frontEnd/网站性能优化", title:"网站性能优化"},
+                        {path: "/frontEnd/BFC", title:"BFC"},
+                        {path: "/frontEnd/CSS3新特性", title: "CSS3新特性"},
+                        {path: "/frontEnd/ES6新特性", title: "ES6新特性"},
+                        {path: "/frontEnd/H5新特性", title: "H5新特性"},
+                        {path: "/frontEnd/动画", title: "动画"},
+                    ]
+                }
+            ],
+            '/ml/': [
+                {
+                    title: '机器学习',
+                    collapsable: true,
+                    children: [
+                        {title: '机器学习早知道',path: '/ml/机器学习早知道'}
                     ]
                 }
             ]
         },
-        {
-            '/ml/': [
-                {
-                    title: '机器学习',
-                    // sidebarDepth: 2,
-                    collapsable: true,
-                    children: [
-                        ["/ml/机器学习早知道", "机器学习早知道"]
-                    ]
-                }
-            ]
-        }],
-        // sidebarDepth: 2,
+        sidebarDepth: 2,
         serviceWorker: true,
     },
 }
