@@ -46,6 +46,8 @@ border-image-repeat
 - skew
 8. flex布局
 9. @media媒体查询
-
-
-# CSS4新特性
+10. column
+- column-count
+- column-width
+- column-gap
+- column-rule: 设置列之间的宽度、样式和颜色规则
