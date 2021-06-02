@@ -19,7 +19,8 @@ module.exports = {
             { text: '主页', link: '/' },
             { text: '技术博文',
               items: [
-                { text: '前端技术', link: '/frontEnd/如何学好前端' },
+                { text: '前端知识点', link: '/frontEnd/如何学好前端' },
+                { text: '前端相关', link: '/frontEnd/面试知识点'},
                 {text: '机器学习', link: '/ml/机器学习早知道'}
               ] 
             },
@@ -29,7 +30,7 @@ module.exports = {
         sidebar: {
             '/frontEnd/': [
                 {
-                    title: '前端技术总结',
+                    title: '前端知识点',
                     // sidebarDepth: 2,
                     collapsable: true,
                     children: [
@@ -41,8 +42,24 @@ module.exports = {
                         {path: "/frontEnd/H5新特性", title: "H5新特性"},
                         {path: "/frontEnd/动画", title: "动画"},
                     ]
+                },
+                {
+                    title: '前端相关',
+                    collapsable: true,
+                    children: [
+                        {title: '面试知识点',path: '/frontEnd/面试知识点'}
+                    ]
                 }
             ],
+            // '/frontEndDetail/': [
+            //     {
+            //         title: '前端相关',
+            //         collapsable: true,
+            //         children: [
+            //             {title: '面试知识点',path: '/forntEndDetail/面试知识点'}
+            //         ]
+            //     }
+            // ],
             '/ml/': [
                 {
                     title: '机器学习',
