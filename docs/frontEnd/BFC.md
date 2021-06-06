@@ -18,4 +18,3 @@ BFC的内部布局总结如下：
 5. 定位元素：position值为 absolute、fixed  
 **注意：display:table也可以生成BFC的原因在于Table会默认生成一个匿名的table-cell，是这个匿名的table-cell生成了BFC。**
 ### 应用举例
-1. 
